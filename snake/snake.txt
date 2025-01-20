@@ -1,0 +1,10 @@
+after each movement erasing the canvas is needed.
+-------------------------------------------------------
+document.addEventListener("keydown", changeDirection);
+This means that whenever a key is pressed on the keyboard, the changeDirection function is called.
+When a key is pressed, the browser generates an event object and passes it to the changeDirection function as an argument.
+event = {
+    keyCode : xx,
+    key : "ArrowUp"
+}
+stops in generating food for snake
